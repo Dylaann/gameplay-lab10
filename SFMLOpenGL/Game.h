@@ -17,7 +17,6 @@
 
 using namespace std;
 using namespace sf;
-using namespace gpp;
 
 class Game
 {
@@ -37,6 +36,10 @@ private:
 	Time elapsed;
 
 	float rotationAngle = 0.0f;
+	float rotationAngleMatrix = 0.0005f;
+
+	Matrix3new m1;
+	Matrix3new m2;
 };
 
 #endif
